@@ -453,7 +453,6 @@ footer {
     text-decoration: none;
     border: 0;
     color: #888;
-    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -471,7 +470,6 @@ footer {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
