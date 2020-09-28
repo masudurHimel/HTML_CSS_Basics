@@ -17,12 +17,13 @@
         <nav>
             <div class="row">
                 <img src="resources/images/logo-white.png" class="logo">
+                <img src="resources/images/logo.png" class="logo-black">
 
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#food_delivery">Food delivery</a></li>
+                    <li><a href="#how_it_works">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#sign_up">Sign up</a></li>
 
                 </ul>
             </div>
@@ -30,12 +31,12 @@
         <div class="hero-text-box">
             <h1>Goodbye junk food.
                 <br>Hello super healthy meals</h1>
-            <a class="btn btn-full" href="#">I'm hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll_to_plan" href="#">I'm hungry</a>
+            <a class="btn btn-ghost js--scroll_to_meal" href="#">Show me more</a>
         </div>
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--sticky" id="food_delivery">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">
@@ -78,7 +79,7 @@
 
     </section>
 
-    <section class="meal-section">
+    <section class="meal-section js--meal" id="how_it_works">
         <ul class="meal-lists clearfix">
             <li>
                 <figure class="meals-photos">
@@ -167,7 +168,7 @@
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -257,7 +258,7 @@
 
     </section>
 
-    <section class="section-customer">
+    <section class="section-customer" id="sign_up">
         <div class="row">
             <h2>Our customers can't live without us</h2>
         </div>
@@ -283,7 +284,7 @@
         </div>
     </section>
 
-    <section class="section-plan">
+    <section class="section-plan js--plan">
         <div class="row">
             <h2>Sign up and pricing plans</h2>
         </div>
@@ -481,10 +482,10 @@
     <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+
 </body>
-
-
-
-</html>
 
 </html>

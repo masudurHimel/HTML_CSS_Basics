@@ -134,6 +134,14 @@ input[ type=submit]:active {
     margin-top: 20px;
 }
 
+.logo-black {
+    height: 50px;
+    float: left;
+    width: auto;
+    margin-top: 5px 0;
+    display: none;
+}
+
 .main-nav {
     margin-top: 55px;
     float: right;
@@ -493,4 +501,35 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* for sticky navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.897);
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 10px 0px;
+    color: black;
+    /* box-shadow: 0 2px 2px rgb(240, 238, 238); */
+}
+
+.sticky .main-nav {
+    margin-top: 15px;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
 }
